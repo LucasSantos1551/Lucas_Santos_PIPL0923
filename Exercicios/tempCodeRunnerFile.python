@@ -1,0 +1,15 @@
+if num1 > num2 and num1 > num3:
+    maior = num1
+elif num2 > num1 and num2 > num3:
+    maior = num2
+else:
+    maior = num3
+
+if (num1 != maior and num1 < maior) or (num2 != maior and num2 < maior):
+    menor = num1 if num1 < num2 else num2
+    meio = num1 if num1 != menor else num2
+else:
+    menor = num3 if num3 < maior else num2
+    meio = num1 if num1 != maior and num1 != menor else num3
+
+print(f"{maior} maior {meio} meio {menor} menor")
