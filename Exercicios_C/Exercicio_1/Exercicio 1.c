@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int segundos;
-    int horas, minutos, segundos_restantes;
+    int segundos = 0;
+    int horas = 0;
+    int minutos = 0;
+    int segundos_restantes = 0;
 
-    printf("Digite o número de segundos: ");
+    printf("Digite o nÃºmero de segundos: ");
     scanf("%d", &segundos);
 
     horas = segundos / 3600;
