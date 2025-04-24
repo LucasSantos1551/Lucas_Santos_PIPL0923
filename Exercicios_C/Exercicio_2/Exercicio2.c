@@ -3,7 +3,6 @@
 int main() {
     int num1, num2, num3;
 
-    // Lê os três números
     printf("Digite o primeiro número: ");
     scanf("%d", &num1);
     printf("Digite o segundo número: ");
@@ -11,7 +10,6 @@ int main() {
     printf("Digite o terceiro número: ");
     scanf("%d", &num3);
 
-    // Inicializa maior e menor
     int maior = num1;
     int menor = num1;
 
@@ -23,7 +21,6 @@ int main() {
         maior = num3;
     }
 
-    // Verifica o menor
     if (num2 < menor) {
         menor = num2;
     }
@@ -31,7 +28,6 @@ int main() {
         menor = num3;
     }
 
-    // Exibe o resultado
     printf("O maior número é: %d\n", maior);
     printf("O menor número é: %d\n", menor);
 
