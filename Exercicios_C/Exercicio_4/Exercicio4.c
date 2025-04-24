@@ -1,7 +1,7 @@
 #include <stdio.h>
  
 int main() {
-    float saldo_inicial, cheque;
+    float saldo_inicial=0, cheque=0;
  
     printf("escreve o saldo inicial: ");
     scanf("%f", &saldo_inicial);
