@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int Num1, Num2, Num3;
-    int temp;
+    int Num1=0, Num2=0, Num3=0;
+    int temp=0;
 
 
     printf("Digite o primeiro valor: ");

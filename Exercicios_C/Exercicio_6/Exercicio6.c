@@ -2,7 +2,7 @@
 
 int main() {
     char nome[100];
-    float valorCompra, desconto, valorTotal;
+    float valorCompra=0, desconto=0, valorTotal=0;
 
     printf("Digite o nome do cliente: ");
     fgets(nome, sizeof(nome), stdin);
@@ -21,10 +21,10 @@ int main() {
     valorTotal = valorCompra - valorDesconto;
 
     printf("\nNome do cliente: %s", nome);
-    printf("Valor da compra: %.2f€\n", valorCompra);
+    printf("Valor da compra: %.2fâ‚¬\n", valorCompra);
     printf("Percentual de desconto: %.0f%%\n", desconto * 100);
-    printf("Valor do desconto: %.2f€\n", valorDesconto);
-    printf("Valor total a pagar: %.2f€\n", valorTotal);
+    printf("Valor do desconto: %.2fâ‚¬\n", valorDesconto);
+    printf("Valor total a pagar: %.2fâ‚¬\n", valorTotal);
 
     return 0;
 }
